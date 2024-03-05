@@ -8,8 +8,6 @@ require("dotenv").config();
 app.use(cors());
 app.use(express.json());
 
-// password db = 5K5fImHbKh2JCk0O 
-
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
